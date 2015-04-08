@@ -6,7 +6,7 @@ Type
 		Re, Im: real; 
 	end; 
 	TMassExtended = array of extended;
-
+{Описание функций}
 Procedure AddC( x, y: complex; var z: complex );
 Procedure ReadMVF( str: string; var m: integer; var Mass, Vector: TMassExtended );
 Procedure PrintMatrix( m: integer; Mass: TMassExtended );
